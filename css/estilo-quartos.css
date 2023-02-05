@@ -1,0 +1,33 @@
+.background{
+    background-image: url(../assets/img-fundo.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.box{
+    margin-bottom: 56px;
+}
+.container-imagens{
+    display: flex;
+    justify-content: center;
+}
+.container-imagens img{
+    width: 300px;
+    height: 200px;
+    margin: auto 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #bbc4db;
+}
+.container-informacoes{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+    width: 100%;
+    margin-bottom: 70px;
+    text-align: left;
+}
+.container-informacoes ul{
+    border-bottom: #7f8eb3 1.75px solid;
+    margin-bottom: 5px;
+}
